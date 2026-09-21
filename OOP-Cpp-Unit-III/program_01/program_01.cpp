@@ -4,9 +4,7 @@
 using namespace std;             // Allows us to use standard C++ names without std::
 
 
-// ===============================
-// Base Class: Shape
-// ===============================
+
 
 class Shape {                    // class: creates a class named Shape
 
@@ -37,9 +35,6 @@ public:                          // public: members can be accessed from outside
 };
 
 
-// ===============================
-// Derived Class: Circle
-// ===============================
 
 class Circle : public Shape {
     // class: creates a class named Circle
@@ -91,9 +86,6 @@ public:                          // public: accessible from outside the class
 };
 
 
-// ===============================
-// Derived Class: Rectangle
-// ===============================
 
 class Rectangle : public Shape {
     // class: creates Rectangle class
@@ -145,9 +137,6 @@ public:                          // public: accessible from outside the class
 };
 
 
-// ===============================
-// Derived Class: Triangle
-// ===============================
 
 class Triangle : public Shape {
     // class: creates Triangle class
@@ -201,9 +190,6 @@ public:                          // public: accessible from outside the class
 };
 
 
-// ===============================
-// Main Function
-// ===============================
 
 int main() {
     // int: main function returns an integer
